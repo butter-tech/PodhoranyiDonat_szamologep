@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.podhoranyidonat_szamologep.HelloController" alignment="center" hgap="10" vgap="10">
+    <TextField fx:id="aInput" promptText="a értéke" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="bInput" promptText="b értéke" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="cInput" promptText="c értéke" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+    <Button text="Számol" onAction="#calculate" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <Label text="x1 =" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label fx:id="x1Label" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <Label text="x2 =" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <Label fx:id="x2Label" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+</GridPane>
